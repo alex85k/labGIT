@@ -148,11 +148,10 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
     ```bash
     git commit --amend
     ```
+    (``:wq`` для подтверждения)
 
 26. Посмотрите историю всех веток:
     ```bash
     gitk --all
     ```
 
-    
-    
