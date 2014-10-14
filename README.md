@@ -151,21 +151,27 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
     git add readme.txt
     git commit --amend
     ```
+    
     (``:wq`` для подтверждения)
 
 26. Посмотрите историю всех веток:
     ```bash
     gitk --all
     ```
+    
 27. Теперь осталось соединить обе ветки в одну. При этом в ней окажутся все изменения. Перейдите на ветку ``master`` и влейте в неё ветку ``txt``:
     ```bash
     git checkout master
     git merge txt
     ```
+    
 28. Есть конфликт в файле readme.txt . Исправим его вручную и сохраним git gui. Посмотрите дерево gitk.
 
 
 Упражнения с проектом Visual Studio:
 -----
 
-1.
+1. Откройте проект в хранилище. 
+2. Создайте ветку ``menu`` (git checkout -b menu)
+3. Добавьте на первую форму меню (MenuStrip)  с несколькими пунктами.
+4. Сохраните изменения в веткe menu (git gui)
