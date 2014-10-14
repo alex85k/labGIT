@@ -114,7 +114,7 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
 20. ЗАКРОЕМ Visual Studio и вернёмся на старое состояние:
    ```bash
    git checkout хэш_первого_коммита
-    ```
+   ```
 файлы проекта пропали
 21. Вернём всё назад
    ```bash
@@ -162,3 +162,9 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
     git merge txt
     ```
 28. Есть конфликт в файле readme.txt . Исправим его вручную и сохраним git gui. Посмотрите дерево gitk.
+
+
+Упражнения с проектом Visual Studio:
+-----
+
+1.
