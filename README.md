@@ -115,6 +115,7 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
    ```bash
    git checkout хэш_первого_коммита
    ```
+   
 файлы проекта пропали
 21. Вернём всё назад
    ```bash
