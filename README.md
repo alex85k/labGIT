@@ -112,9 +112,9 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
 18. Создайте проект Visual Studio Windows Forms в той же папке хранилища. Сразу добавьте вторую форму (пока пустую).
 19. Сохраните изменения, добавив все файлы (проект, ресурсы, код форм) (сообщение типа "создан проект VS").
 20. ЗАКРОЕМ Visual Studio и вернёмся на старое состояние:
-  ```bash
-  git checkout хэш_первого_коммита
-   ```
+   ```bash
+   git checkout хэш_первого_коммита
+    ```
 файлы проекта пропали
 21. Вернём всё назад
    ```bash
