@@ -147,6 +147,7 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
 25. Еще раз поменяем файл ``readme.txt``, исправив ошибку. Чтобы коммит с опечаткой не раздувал историю, можно его переделать:
 
     ```bash
+    git add readme.txt
     git commit --amend
     ```
     (``:wq`` для подтверждения)
@@ -155,4 +156,9 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
     ```bash
     gitk --all
     ```
-
+27. Теперь осталось соединить обе ветки в одну. При этом в ней окажутся все изменения. Перейдите на ветку ``master`` и влейте в неё ветку ``txt``:
+    ```bash
+    git checkout master
+    git merge txt
+    ```
+28. Есть конфликт в файле readme.txt . Исправим его вручную и сохраним git gui. Посмотрите дерево gitk.
